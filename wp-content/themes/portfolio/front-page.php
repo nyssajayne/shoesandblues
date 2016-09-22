@@ -15,8 +15,6 @@
 
 <div class="projects">
 
-<?php query_posts('category_name=portfolio'); ?>
-
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post() ?>
 
 	<a href="<?php echo get_the_permalink(); ?>">
